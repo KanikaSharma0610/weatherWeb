@@ -108,7 +108,7 @@ function getCurrentDate(){
     dt_txt:date,
     weather:[{id}],
     main:{temp}
-  }=weatherData
+  } = weatherData
 
   const dateTaken = new Date(date)
   const dateOption ={
